@@ -1,5 +1,10 @@
 [Desktop Entry]
-Type=Link
-Name=VSCode
-Icon=/usr/local/vscode/resources/app/resources/linux/code.png
-URL=/usr/share/applications/vscode.desktop
+Version=1.0
+Type=Application
+Name=vscode
+Comment=
+Exec=/usr/bin/code --user-data-dir=/home/tkikuchi/.config/Code
+Icon=/usr/share/code/resources/app/resources/linux/code.png
+Path=
+Terminal=false
+StartupNotify=false

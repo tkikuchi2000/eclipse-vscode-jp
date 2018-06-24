@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  vscode:
+    env_file: .env
+    volumes:
+      - ./root:/root
+    command:  /bin/sh -c "sed -i \"s/^\(command=\/usr\/bin\/Xvfb :0 -screen 0\) .*$$/\1 ${RESOLUTION}/\" /etc/supervisor/conf.d/desktop.conf  && /usr/bin/supervisord -c /etc/supervisor/supervisord.conf"
+
