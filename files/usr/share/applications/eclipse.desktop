@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Eclipse
-Keywords=java;eclipse;development
-Exec=/usr/local/eclipse/eclipse
-Terminal=false
-Type=Application
-Icon=/usr/local/eclipse/icon.xpm
